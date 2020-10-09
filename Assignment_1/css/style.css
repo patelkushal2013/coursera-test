@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+  }
+
+section{
+    background-color: gray;
+    font-family: Helvetica;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
