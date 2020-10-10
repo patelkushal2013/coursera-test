@@ -18,6 +18,8 @@ h2{
     margin-top: 0px;
     margin-bottom: 0px;
     border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 #st{
     background-color: rgb(233, 115, 69);
@@ -59,16 +61,17 @@ p{
     }
 }
 
-
 /********** Tablet only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-    .col-md{
+    .col-md-1{
         float: left;
-        width: 50%;
-        
+        width: 50%;   
+    }
+    .col-md-2{
+        float: left;
+        width: 100%;   
     }
 }
-
 
 /*Moble*/
 @media (max-width: 767px){
