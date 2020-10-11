@@ -7,11 +7,20 @@ h1{
     font-weight: bold;
     font-family: "Lucida Console", Courier, monospace;
 }
+
+section{
+    margin: 10px;
+    background-color: beige;
+    margin: 10px;
+    border: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 h2{
     text-align: right;
     font-size: 25px;
-    font-weight: 200;
-    font-family: "Lucida Console", Courier, monospace;
+    font-weight: 500;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(233, 115, 69);
     width: fit-content;
     margin-left: auto;
@@ -21,6 +30,7 @@ h2{
     padding-left: 10px;
     padding-right: 10px;
 }
+
 #st{
     background-color: rgb(233, 115, 69);
 }
@@ -38,21 +48,6 @@ p{
     font-weight: 500;
 }
 
-#x{
-    margin: 10px;
-    width: 95%;
-    background-color: beige;
-    margin-right: auto;
-    margin-left: auto;
-    align-self: auto;
-    border: 3px solid black;
-    font-family: "Lucida Console", Courier, monospace;
-}
-
-
-.row{
-    width: 100%;
-}
 /*Desktop*/
 @media (min-width: 992px) {
     .col-lg{
@@ -61,7 +56,7 @@ p{
     }
 }
 
-/********** Tablet only **********/
+/*Tablet*/
 @media (min-width: 768px) and (max-width: 991px) {
     .col-md-1{
         float: left;
