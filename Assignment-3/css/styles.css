@@ -4,7 +4,7 @@
 
 body {
     font-size: 16px;
-    background-color: #599e4b;
+    background-color: #374785;
 }
 
 #header-nav {
@@ -15,18 +15,15 @@ body {
 
 .navbar-brand p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.5em;
+    font-size: 2em;
     color: #24305e;
     font-weight: bolder;
-    margin-top: 10px;
-    margin-bottom: 20px;
 }
 
 
 .navbar-brand, .navbar-nav li p {
-    line-height: 76px;
-    height: 76px;
-    padding-top: 0;
+    line-height: 50px;
+    height: 50px;
 }
 
 .navbar-brand h1{
@@ -36,7 +33,7 @@ body {
     font-size: 1.8em;
 }
 
-.navbar-brand a:hover {
+.navbar-brand p:hover {
     text-decoration: none;
     text-shadow: 1px 1px 1px #fc0000;
 }
@@ -45,13 +42,13 @@ body {
     background-color: #f76c6c;
 }
 
-#nav-list a {
+#nav-list p {
     font-weight: bolder;
     color: #282828;
     font-size: 1.2em;
 }
 
-#nav-list a:hover {
+#nav-list p:hover {
     color: #f76c6c;
     background-color: #f8e9a1;
 }
