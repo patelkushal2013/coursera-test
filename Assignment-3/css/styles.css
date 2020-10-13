@@ -7,30 +7,33 @@ body {
     background-color: #374785;
 }
 
+.navbar-header{
+    height: 75px;
+}
+
+.navbar-header button{
+    margin-top: 20px;
+}
+
 #header-nav {
     background-color: #a8d0e6;
-    border-radius: 0;
-    border: 0;
 }
 
 .navbar-brand p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2em;
+    font-size: 2.2em;
     color: #24305e;
     font-weight: bolder;
+    line-height: 50px;
 }
 
-
-.navbar-brand, .navbar-nav li p {
+#nav-list p {
     line-height: 50px;
     height: 50px;
-}
-
-.navbar-brand h1{
-    color: #24305e;
     font-weight: bolder;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.8em;
+    color: #282828;
+    font-size: 1.2em;
+    margin-bottom: 0;
 }
 
 .navbar-brand p:hover {
@@ -38,14 +41,13 @@ body {
     text-shadow: 1px 1px 1px #fc0000;
 }
 
-#nav-list {
-    background-color: #f76c6c;
+#line-hr{
+    margin: 0;
+    color: #a8d0e6;
 }
 
-#nav-list p {
-    font-weight: bolder;
-    color: #282828;
-    font-size: 1.2em;
+#nav-list {
+    background-color: #f76c6c;
 }
 
 #nav-list p:hover {
@@ -55,6 +57,13 @@ body {
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
     border: 1px solid #460805;
+}
+
+#top-heading p:hover{
+    text-shadow: 1px 1px 1px #fc0000;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #main-content {
