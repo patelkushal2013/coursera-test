@@ -17,6 +17,7 @@ body {
 #header-nav {
     background-color: #a8d0e6;
     border-radius: 0;
+    border: 0;
 }
 
 .navbar-brand p{
