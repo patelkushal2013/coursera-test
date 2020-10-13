@@ -61,9 +61,6 @@ body {
 
 #top-heading p:hover{
     text-shadow: 1px 1px 1px #fc0000;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #main-content {
